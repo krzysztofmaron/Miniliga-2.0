@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #0C0C1F;
+	font-family: 'Sansation' !important;
+}
+.navigation{
+    height: 80px;
+    background-color:#18182A;
+
+}
+
+.logo{
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.menu{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 16px;
+}	
+	
+.menu li{	
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu li a {
+	
+	padding-top: 29px;
+	padding-bottom: 29px;
+	padding-left: 60 px;
+	padding-right: 16px;
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 18px;
+	text-decoration: none;
+	display: block;
+	margin-left: 80px;
+
+}
+
+.menu li a:hover {
+	color:#9747FF;
+	transition: color 0.5s ease-in;
+}
+
+.hero{
+	background-image: url(../img/Minibg.png);
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right;
+}
+.main-title{
+	font-weight: 700;
+	font-size: 150px;
+	padding-top: 245px;
+	background: -webkit-linear-gradient(right,#9747FF,#037AE8 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub-title{
+	font-weight: 200;
+	font-size: 18px;
+	color:WHITE;
+	padding-top: 8px;
+  	padding: 10px;
+  	width: 498px;
+  	height: 78px;
+	text-align: justify;
+	
+}
+.button{
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: -webkit-linear-gradient(right,#9747FF,#037AE8 );
+	padding: 10px 40px;
+	display: inline-block;
+	margin-top: 100px;
+	border-radius: 100px;
+}
+
+.block-info{
+	background: linear-gradient(to bottom, #411493 0%, #0C2045 100%);
+	padding: 50px 0 220px 0;
+}
+
+.mid-title{
+	font-weight: 700;
+	font-size: 48px;
+	color:WHITE;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 150px;
+  	width: 1012px;
+  	height: 108px;	
+}
+
+.zasady{
+	margin-top: 100px;
+	background-color: #18182A;
+	width: 500;
+	height: 285;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+
+.zasady-menu li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.zasady-number{
+	font-size: 64px;
+	color: #FFFFFF;
+	padding: 20px;
+	text-align: justify;
+	margin: 0px;
+}
+
+.zasady-name{
+	font-size: 40px;
+	color: #FFFFFF;
+	padding: 35px;
+	text-align: center;
+}
+
+.zasady-bio{
+	font-weight: 200;
+	font-size: 18px;
+	color:WHITE;
+	padding-top: 8px;
+  	padding: 10px;
+  	width: 450px;
+  	height: 125px;
+	text-align: center;
+}
